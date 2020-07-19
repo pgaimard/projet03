@@ -39,6 +39,6 @@ section#section-partners ul {
 section#section-partners ul li {
     list-style: none;
     width: 200px;
-    margin: 10px 0;
+    margin: 10px;
     border: 1px solid black;
 }

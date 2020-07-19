@@ -18,6 +18,18 @@ header title {
 
 /* Nav menu */
 
+header nav {
+    position: relative;
+}
+
+header nav div {
+    width: 120px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+}
+
 header nav ul {
     display: flex;
     flex-direction: row;
@@ -25,4 +37,31 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
+}
+
+/* Responsive system */
+header #header-menu-heading {
+    display: none;
+}
+
+@media all and (max-width: 1000px){
+    header #header-menu-heading {
+        display: block;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    header nav:hover ul {
+        position: absolute;
+        right: 0;
+        top: 45px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 20px;
+
+        border: 1px solid black;
+    }
 }

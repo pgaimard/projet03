@@ -6,11 +6,36 @@ footer {
     justify-content: space-around;
     align-items: start;
 
-    border: 1px solid black;
+    color: white;
+    background-color: black;
 }
 
 footer div {
     min-width: 200px;
     margin: 20px;
     border: 1px solid black;
+}
+
+footer div ul {
+    padding: 0;
+}
+
+footer div ul li {
+    list-style: none;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+footer div ul li.footer-block-heading {
+    font-family: "Bungee Shade", Arial, sans-serif;
+    font-size: 1.6em;
+}
+
+footer div#footer-contact ul li.footer-block-heading {
+    font-family: Lobster, Arial, sans-serif;
+}
+
+footer div ul li a {
+    color: white;
 }

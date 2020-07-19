@@ -1,2 +1,28 @@
-/* Nav */
+/* Header */
 
+/* Global */
+header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+/* Title */
+header title {
+
+}
+
+/* Nav menu */
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    list-style: none;
+}

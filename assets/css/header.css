@@ -2,18 +2,20 @@
 
 /* Global */
 header {
-    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
+    height: 60px;
+    padding: 0 20px;
     border: 1px solid black;
 }
 
 /* Title */
-header title {
-
+header #header-title {
+    font-family: Lobster, Arial, sans-serif;
+    font-size: 1.5em;
 }
 
 /* Nav menu */
@@ -37,6 +39,24 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
+
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 700;
+}
+
+header nav ul li a {
+    padding: 5px 10px;
+    text-decoration: none;
+
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.2s;
+}
+
+header nav ul li a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    transition: all 0.2s;
 }
 
 /* Responsive system */

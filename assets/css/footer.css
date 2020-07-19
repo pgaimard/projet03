@@ -1,0 +1,15 @@
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+
+    border: 1px solid black;
+}
+
+footer div {
+    min-width: 200px;
+    margin: 20px;
+    border: 1px solid black;
+}

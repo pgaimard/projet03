@@ -1,0 +1,162 @@
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/background_picto_2.svg"), url("../img/background_img_cloud_1.gif"), url("../img/background_picto_1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom left, top 50px center;
+    background-size: 50%, 100%, 500px;
+}
+
+/* Counter */
+#counter-container {
+    width: 200px;
+    margin: 60px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#counter {
+    padding: 20px;
+
+    border: 1px solid black;
+
+    text-align: center;
+    color: red;
+    font-family: Quicksand, Arial, sans-serif;
+    font-size: 3em;
+}
+
+/* Title */
+#title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#title-container div {
+    min-width: 40%;
+    margin: 10px;
+}
+    /* Title announcement block */
+    #title-container .announcement {
+        text-align: right;
+    }
+
+    #title-container .announcement p {
+        margin: 0;
+    }
+
+        #title-container .announcement p:nth-child(1) {
+            font-family: Lobster, Arial, sans-serif;
+            font-size: 2em;
+        }
+
+        #title-container .announcement p:nth-child(2) {
+            font-family: Lobster, Arial, sans-serif;
+            font-size: 3em;
+            color: red;
+        }
+
+        #title-container .announcement p:nth-child(3) {
+            font-family: Quicksand, Arial, sans-serif;
+            font-weight: 300;
+            font-size: 2em;
+        }
+
+    /* Title title block */
+    #title-container .title {
+        padding-top: 40px;
+    }
+
+    #title-container .title p {
+        margin: 0;
+    }
+
+        #title-container .title p:nth-child(1) {
+            font-family: "Bungee Shade", Arial, sans-serif;
+            font-size: 4em;
+        }
+
+        #title-container .title p:nth-child(2) {
+            margin-top: 30px;
+        }
+
+        #title-container .title p:nth-child(2) mark {
+            font-family: Quicksand, Arial, sans-serif;
+            font-size: 2em;
+            color: white;
+            background-color: #41454D;
+        }
+
+        #title-container .title p:nth-child(3) {
+            font-family: Quicksand, Arial, sans-serif;
+            font-size: 2.5em;
+        }
+
+        #title-container .title p:nth-child(4) {
+            font-family: Quicksand, Arial, sans-serif;
+            font-size: 2em;
+        }
+
+
+/* Call to action */
+#call-to-action {
+    width: 250px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+    #call-to-action a {
+        padding: 10px 20px;
+        color: white;
+        background-color: red;
+        text-decoration: none;
+
+        font-family: Quicksand, Arial, sans-serif;
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+    #call-to-action a:hover {
+        box-shadow: 0 0 10px gray;
+        font-size: 2.2em;
+        transition: all 0.2s;
+    }
+
+/* Extra Small */
+
+@media all and (max-width: 576px) {
+    #container {
+        background-position: bottom right 20px, bottom center, top 20px center;
+        background-size: 700px, 150%, 300px;
+    }
+}
+
+/* Small */
+
+@media all and (min-width: 576px) and (max-width: 768px){
+    #container {
+        background-position: bottom right 300px, bottom left, top 50px right;
+        background-size: 700px, 100%, 400px;
+    }
+}
+
+/* Medium */
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    #container {
+        background-position: bottom left -200px, bottom left, top 50px right 50px;
+        background-size: 700px, 100%, 400px;
+    }
+}
+
+/* Large */
+
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    #container {
+        background-position: bottom left, bottom left, top 50px right 50px;
+        background-size: 50%, 100%, 450px;
+    }
+}

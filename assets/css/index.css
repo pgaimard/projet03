@@ -3,10 +3,10 @@
     width: 100%;
     height: 100%;
 
-    background-image: url("../img/background_picto_2.svg"), url("../img/background_img_cloud_1.gif"), url("../img/background_picto_1.svg");
+    background-image: url("../img/background_img_cloud_1.gif"), url("../img/background_picto_1.svg");
     background-repeat: no-repeat;
-    background-position: bottom left, bottom left, top 50px center;
-    background-size: 50%, 100%, 500px;
+    background-position: bottom left, top 50px center;
+    background-size: 100%, 500px;
 }
 
 /* Counter */
@@ -39,6 +39,10 @@
     min-width: 40%;
     margin: 10px;
 }
+
+#title-container div p {
+    font-size: 2em;
+}
     /* Title announcement block */
     #title-container .announcement {
         text-align: right;
@@ -50,7 +54,6 @@
 
         #title-container .announcement p:nth-child(1) {
             font-family: Lobster, Arial, sans-serif;
-            font-size: 2em;
         }
 
         #title-container .announcement p:nth-child(2) {
@@ -62,7 +65,6 @@
         #title-container .announcement p:nth-child(3) {
             font-family: Quicksand, Arial, sans-serif;
             font-weight: 300;
-            font-size: 2em;
         }
 
     /* Title title block */
@@ -85,7 +87,6 @@
 
         #title-container .title p:nth-child(2) mark {
             font-family: Quicksand, Arial, sans-serif;
-            font-size: 2em;
             color: white;
             background-color: #41454D;
         }
@@ -97,7 +98,6 @@
 
         #title-container .title p:nth-child(4) {
             font-family: Quicksand, Arial, sans-serif;
-            font-size: 2em;
         }
 
 
@@ -117,6 +117,8 @@
         font-family: Quicksand, Arial, sans-serif;
         font-weight: 900;
         font-size: 2em;
+
+        transition: all 0.2s;
     }
 
     #call-to-action a:hover {
@@ -125,38 +127,33 @@
         transition: all 0.2s;
     }
 
-/* Extra Small */
+/* Responsive background */
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 768px) {
     #container {
-        background-position: bottom right 20px, bottom center, top 20px center;
-        background-size: 700px, 150%, 300px;
+        background-position: bottom center, top 20px center;
+        background-size: 150%, 300px;
     }
 }
 
-/* Small */
+/* Responsive title */
 
-@media all and (min-width: 576px) and (max-width: 768px){
-    #container {
-        background-position: bottom right 300px, bottom left, top 50px right;
-        background-size: 700px, 100%, 400px;
+@media all and (max-width: 1024px) {
+    #title-container .title p:nth-child(1) {
+        font-family: "Bungee Shade", Arial, sans-serif;
+        font-size: 3em;
     }
 }
 
-/* Medium */
-
-@media all and (min-width: 769px) and (max-width: 1024px){
-    #container {
-        background-position: bottom left -200px, bottom left, top 50px right 50px;
-        background-size: 700px, 100%, 400px;
+@media all and (max-width: 768px) {
+    #title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-}
 
-/* Large */
-
-@media all and (min-width: 1024px) and (max-width: 1440px){
-    #container {
-        background-position: bottom left, bottom left, top 50px right 50px;
-        background-size: 50%, 100%, 450px;
+    #title-container div {
+        margin: 0;
+        padding: 0 40px;
     }
 }

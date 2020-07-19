@@ -28,7 +28,10 @@ section#section-partners {
 section#section-partners ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
+
+    padding: 0;
 
     border: 1px solid black;
 }
@@ -36,7 +39,6 @@ section#section-partners ul {
 section#section-partners ul li {
     list-style: none;
     width: 200px;
-    margin: 20px;
-
+    margin: 10px 0;
     border: 1px solid black;
 }

@@ -42,3 +42,17 @@ section#section-partners ul li {
     margin: 10px;
     border: 1px solid black;
 }
+
+/* responsive system */
+@media all and (max-width: 1000px){
+    section.section-two-blocks div{
+        width: unset;
+    }
+    section.section-two-blocks:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    section.section-two-blocks:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+}

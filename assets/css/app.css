@@ -44,3 +44,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Global settings */
+
+body {
+    margin: 0;
+}

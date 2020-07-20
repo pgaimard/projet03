@@ -53,27 +53,27 @@ section#section-announcement div {
     padding: 20px;
 }
 
-    /* Announcement block */
-    section#section-announcement div#announcement-block{
+    /* Branding block */
+    section#section-announcement div#branding-block{
         text-align: right;
     }
 
-    section#section-announcement div#announcement-block p {
+    section#section-announcement div#branding-block p {
         margin: 0;
     }
 
-    section#section-announcement div#announcement-block p:nth-child(1){
+    section#section-announcement div#branding-block p:nth-child(1){
         font-family: Lobster, Arial, sans-serif;
         font-size: 2em;
     }
 
-    section#section-announcement div#announcement-block p:nth-child(2){
+    section#section-announcement div#branding-block p:nth-child(2){
         font-family: Lobster, Arial, sans-serif;
         font-size: 2.5em;
         color: red;
     }
 
-    section#section-announcement div#announcement-block p:nth-child(3){
+    section#section-announcement div#branding-block p:nth-child(3){
         font-family: Quicksand, Arial, sans-serif;
         font-weight: 300;
         font-size: 2em;

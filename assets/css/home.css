@@ -1,8 +1,11 @@
 /* home */
 
 /* Global */
-section {
-    border: 1px solid black;
+body {
+    background-image: url("../img/backgrount_picto_camera_1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top 300px center;
 }
 
 /* Two blocks content sections */
@@ -19,6 +22,94 @@ section.section-two-blocks div {
 
     border: 1px solid black;
 }
+
+/* heading image section */
+section#section-heading-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 414px;
+
+    background: url("../img/home_background_img_cloud.gif") no-repeat center center;
+}
+
+section#section-heading-image h3 {
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 4em;
+    color: red;
+    border: 1px solid black;
+}
+
+section#section-heading-image h3 div {
+    margin: 5px;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+/* Section Announcement */
+section#section-announcement div {
+    padding: 20px;
+}
+
+    /* Announcement block */
+    section#section-announcement div#announcement-block{
+        text-align: right;
+    }
+
+    section#section-announcement div#announcement-block p {
+        margin: 0;
+    }
+
+    section#section-announcement div#announcement-block p:nth-child(1){
+        font-family: Lobster, Arial, sans-serif;
+        font-size: 2em;
+    }
+
+    section#section-announcement div#announcement-block p:nth-child(2){
+        font-family: Lobster, Arial, sans-serif;
+        font-size: 2.5em;
+        color: red;
+    }
+
+    section#section-announcement div#announcement-block p:nth-child(3){
+        font-family: Quicksand, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 2em;
+    }
+
+    /* Title block */
+    section#section-announcement div#title-block p:nth-child(1){
+        margin: 40px 0;
+        font-family: "Bungee Shade", Arial, sans-serif;
+        font-size: 4em;
+    }
+
+    section#section-announcement div#title-block p:nth-child(2){
+        margin: 0;
+        font-family: Quicksand, Arial, sans-serif;
+        font-size: 2em;
+    }
+
+    section#section-announcement div#title-block p:nth-child(2) mark {
+        color: white;
+        background-color: #41454D;
+    }
+
+    section#section-announcement div#title-block p:nth-child(3){
+        margin: 0;
+        font-family: Quicksand, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 2em;
+    }
+
+    section#section-announcement div#title-block p:nth-child(4){
+        margin: 0;
+        font-family: Quicksand, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+    }
 
 /* partners section */
 section#section-partners {
@@ -45,6 +136,7 @@ section#section-partners ul li {
 
 /* responsive system */
 @media all and (max-width: 1000px){
+    /* global */
     section.section-two-blocks div{
         width: unset;
     }

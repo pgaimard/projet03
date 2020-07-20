@@ -11,9 +11,8 @@ footer {
 }
 
 footer div {
-    min-width: 200px;
+    width: 260px;
     margin: 20px;
-    border: 1px solid black;
 }
 
 footer div ul {
@@ -21,6 +20,7 @@ footer div ul {
 }
 
 footer div ul li {
+    margin: 5px 0;
     list-style: none;
     font-family: Quicksand, Arial, sans-serif;
     font-weight: 300;
@@ -38,4 +38,8 @@ footer div#footer-contact ul li.footer-block-heading {
 
 footer div ul li a {
     color: white;
+}
+
+footer div#footer-social ul li a {
+    margin: 0 5px;
 }

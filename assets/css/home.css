@@ -4,8 +4,8 @@
 body {
     background-image: url("../img/backgrount_picto_camera_1.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top 300px center;
+    background-size: 1920px;
+    background-position: top 350px center;
 }
 
 /* Two blocks content sections */
@@ -13,14 +13,10 @@ section.section-two-blocks {
     display: flex;
     flex-direction: row;
     align-content: center;
-
-    border: 1px solid black;
 }
 
 section.section-two-blocks div {
     width: 50%;
-
-    border: 1px solid black;
 }
 
 /* heading image section */

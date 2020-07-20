@@ -60,6 +60,10 @@ section#section-heading-image h3 div {
 }
 
 /* Section Announcement */
+section#section-announcement {
+    margin-bottom: 50px;
+}
+
 section#section-announcement div {
     padding: 20px;
 }
@@ -152,6 +156,107 @@ section#section-announcement div {
         }
     }
 
+/* content sections */
+
+/* content block */
+section#section-team {
+    margin: 50px 0;
+}
+
+section.section-two-blocks div.section-content-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.section-two-blocks div.section-content-block div {
+    width: 100%;
+    padding: 20px 100px;
+}
+
+    /* title */
+    section.section-two-blocks div.section-content-block h2 {
+        font-family: "Bungee Shade", Arial, sans-serif;
+        font-size: 3em;
+    }
+
+    /* text */
+    section.section-two-blocks div.section-content-block p {
+        font-family: Quicksand, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 2em;
+    }
+
+    section.section-two-blocks div.section-content-block p mark {
+        color: white;
+        background-color: #41454D;
+    }
+
+    /* link */
+    section.section-two-blocks div.section-content-block p a {
+        font-weight: 700;
+        font-size: 1em;
+        padding: 0 10px;
+
+        border: 1px solid red;
+        color: red;
+        transition: all 0.2s;
+    }
+
+    section.section-two-blocks div.section-content-block p a:hover {
+        color: white;
+        background-color: red;
+        transition: all 0.2s;
+    }
+
+    /* responsive adjustments */
+    @media all and (min-width: 780px) and (max-width: 1024px) {
+        section.section-two-blocks div.section-content-block div {
+            padding: 0 50px 20px 50px;
+        }
+
+        /* title */
+        section.section-two-blocks div.section-content-block h2 {
+            font-size: 2em;
+        }
+
+        /* text */
+        section.section-two-blocks div.section-content-block p {
+            font-size: 1.5em;
+        }
+
+        /* link */
+        section.section-two-blocks div.section-content-block p a {
+            font-size: 0.8em;
+        }
+    }
+
+    @media all and (max-width: 576px) {
+        section.section-two-blocks div.section-content-block div {
+            padding: 0 50px 20px 50px;
+        }
+
+        /* title */
+        section.section-two-blocks div.section-content-block h2 {
+            font-size: 2em;
+        }
+
+        /* text */
+        section.section-two-blocks div.section-content-block p {
+            font-size: 1.5em;
+        }
+
+        /* link */
+        section.section-two-blocks div.section-content-block p a {
+            font-size: 0.8em;
+        }
+    }
+
+/* image block */
+section.section-two-blocks div.section-image-block img {
+    width: 100%;
+}
+
 /* partners section */
 section#section-partners {
     text-align: center;
@@ -174,4 +279,6 @@ section#section-partners ul li {
     margin: 10px;
     border: 1px solid black;
 }
+
+
 

@@ -32,6 +32,7 @@ header nav ul li {
 
     font-family: Quicksand, Arial, sans-serif;
     font-weight: 700;
+    font-size: 1em;
 }
 
 header nav ul li a {
@@ -59,6 +60,10 @@ header nav ul li#hedear-menu-avatar a {
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+header nav ul li#hedear-menu-avatar a:hover {
+    background-color: unset;
 }
 
 /* Responsive menu */
@@ -99,9 +104,5 @@ header nav div#header-menu-button img {
 
     header nav:hover ul li {
         padding: 10px;
-    }
-
-    header nav:hover ul li#hedear-menu-avatar a:hover {
-        background-color: unset;
     }
 }

@@ -19,6 +19,21 @@ section.section-two-blocks div {
     width: 50%;
 }
 
+/* responsive system */
+@media all and (max-width: 850px){
+    /* global */
+    section.section-two-blocks div{
+        width: unset;
+    }
+    section.section-two-blocks:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    section.section-two-blocks:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+}
+
 /* heading image section */
 section#section-heading-image {
     display: flex;
@@ -75,6 +90,15 @@ section#section-announcement div {
         font-size: 2em;
     }
 
+    /* Responsive adjustment */
+    @media all and (max-width: 540px){
+        section#section-announcement div#branding-block p:nth-child(2){
+            font-family: Lobster, Arial, sans-serif;
+            font-size: 2em;
+            color: red;
+        }
+    }
+
     /* Title block */
     section#section-announcement div#title-block p:nth-child(1){
         margin: 40px 0;
@@ -107,6 +131,27 @@ section#section-announcement div {
         font-size: 1em;
     }
 
+    /* Responsive adjustment */
+    @media all and (min-width: 770px) and (max-width: 1024px){
+        section#section-announcement div#title-block p:nth-child(1){
+            font-size: 3em;
+        }
+    }
+
+    @media all and (max-width: 576px){
+        /* Title block */
+        section#section-announcement div#title-block p:nth-child(1){
+            font-size: 3em;
+        }
+    }
+
+    @media all and (max-width: 540px){
+        /* Title block */
+        section#section-announcement div#title-block p:nth-child(1){
+            font-size: 2.5em;
+        }
+    }
+
 /* partners section */
 section#section-partners {
     text-align: center;
@@ -130,17 +175,3 @@ section#section-partners ul li {
     border: 1px solid black;
 }
 
-/* responsive system */
-@media all and (max-width: 1000px){
-    /* global */
-    section.section-two-blocks div{
-        width: unset;
-    }
-    section.section-two-blocks:nth-child(odd) {
-        flex-direction: column;
-    }
-
-    section.section-two-blocks:nth-child(even) {
-        flex-direction: column-reverse;
-    }
-}

@@ -260,25 +260,49 @@ section.section-two-blocks div.section-image-block img {
 /* partners section */
 section#section-partners {
     text-align: center;
+    padding: 100px 300px;
 }
 
-section#section-partners ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    /* title */
+    section#section-partners h2 {
+        font-family: "Bungee Shade", Arial, sans-serif;
+        font-size: 3em;
+    }
 
-    padding: 0;
+    section#section-partners ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
 
-    border: 1px solid black;
-}
+        padding: 0;
+    }
 
-section#section-partners ul li {
-    list-style: none;
-    width: 200px;
-    margin: 10px;
-    border: 1px solid black;
-}
+    section#section-partners ul li {
+        list-style: none;
+        width: 200px;
+        margin: 40px;
+    }
+
+    /* responsive adjustment */
+    @media all and (min-width: 780px) and (max-width: 1024px){
+        section#section-partners {
+            padding: 100px 100px;
+        }
+    }
+
+    @media all and (max-width: 768px){
+        section#section-partners {
+            padding: 10px 50px 40px;
+        }
+    }
+
+    @media all and (max-width: 576px){
+        section#section-partners h2 {
+            font-size: 2em;
+        }
+    }
 
 
 

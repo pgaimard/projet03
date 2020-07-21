@@ -249,12 +249,12 @@ section#section-announcement div {
 
             @media all and (max-width: 576px) {
                 section.section-two-blocks div.section-content-block div {
-                    padding: 0 50px 20px 50px;
+                    padding: 0 40px 20px 40px;
                 }
 
                 /* title */
                 section.section-two-blocks div.section-content-block h2 {
-                    font-size: 2em;
+                    font-size: 1.8em;
                 }
 
                 /* text */
@@ -298,9 +298,15 @@ section#section-partners {
         font-size: 3em;
     }
 
-        @media all and (max-width: 576px){
+        @media all and (min-width: 540px) and (max-width: 576px){
             section#section-partners h2 {
                 font-size: 2em;
+            }
+        }
+
+        @media all and (max-width: 520px){
+            section#section-partners h2 {
+                font-size: 1.5em;
             }
         }
 
@@ -319,6 +325,12 @@ section#section-partners {
         list-style: none;
         width: 200px;
         margin: 40px;
+    }
+
+    @media all and (max-width: 576px) {
+        section#section-partners ul li {
+            margin: 40px 10px;
+        }
     }
 
 

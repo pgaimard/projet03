@@ -8,6 +8,13 @@ body {
     background-position: top 350px center;
 }
 
+    @media all and (min-width: 1921px) {
+        body {
+            background-size: 2650px;
+            background-position: top 500px center;
+        }
+    }
+
 /* Two blocks content sections */
 section.section-two-blocks {
     display: flex;
@@ -40,10 +47,20 @@ section#section-heading-image {
     align-items: center;
     justify-content: center;
 
-    height: 414px;
+    height: 444px;
 
-    background: url("../img/home_background_img_cloud.gif") no-repeat center center;
+    background-image: url("../img/home_background_img_cloud.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1920px;
 }
+    /* responsive adjustment */
+    @media all and (min-width: 1921px){
+        section#section-heading-image {
+            height: 600px;
+            background-size: 2650px;
+        }
+    }
 
 section#section-heading-image h3 {
     font-family: Quicksand, Arial, sans-serif;

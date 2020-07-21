@@ -51,6 +51,11 @@ body {
     min-width: 320px;
 }
 
+body div#global-container {
+    max-width: 1920px;
+    margin: auto;
+}
+
 a {
     text-decoration: none;
 }

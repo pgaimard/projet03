@@ -59,3 +59,31 @@ body div#global-container {
 a {
     text-decoration: none;
 }
+
+/* content sections */
+
+/* Two blocks content sections */
+section.section-two-blocks {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+section.section-two-blocks div {
+    width: 50%;
+}
+
+    /* responsive adjustment */
+    @media all and (max-width: 850px){
+        /* global */
+        section.section-two-blocks div{
+            width: unset;
+        }
+        section.section-two-blocks:nth-child(odd) {
+            flex-direction: column;
+        }
+
+        section.section-two-blocks:nth-child(even) {
+            flex-direction: column-reverse;
+        }
+    }

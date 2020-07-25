@@ -16,27 +16,7 @@ body {
     }
 
 /* heading image section */
-section#section-heading-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 444px;
-
-    background-image: url("../img/home_background_img_cloud.gif");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 1920px;
-}
-    /* responsive adjustment */
-    @media all and (min-width: 1921px){
-        section#section-heading-image {
-            height: 600px;
-            background-size: 2650px;
-        }
-    }
-
-section#section-heading-image h3 {
+section.section-heading-image.style-1 h3 {
     font-family: Quicksand, Arial, sans-serif;
     font-weight: 500;
     font-size: 4em;
@@ -44,7 +24,7 @@ section#section-heading-image h3 {
     border: 1px solid black;
 }
 
-section#section-heading-image h3 div {
+section.section-heading-image.style-1 h3 div {
     margin: 5px;
     padding: 5px 20px;
     border: 1px solid black;

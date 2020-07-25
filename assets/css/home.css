@@ -198,6 +198,10 @@ section#section-partners {
     }
 
         /* Title */
+        section#section-partners h2 {
+            font-size: 3em;
+        }
+
         @media all and (min-width: 577px) and (max-width: 768px) {
             section#section-partners h2 {
                 font-size: 3em;

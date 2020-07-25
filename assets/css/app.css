@@ -157,12 +157,12 @@ a {
 
                 @media all and (max-width: 576px) {
                     section.section-two-blocks div.section-content-block div {
-                        padding: 0 40px 20px 40px;
+                        padding: 0 30px 20px 30px;
                     }
 
                     /* title */
                     section.section-two-blocks div.section-content-block h2 {
-                        font-size: 2em;
+                        font-size: 1.9em;
                     }
 
                     /* link */
@@ -179,5 +179,4 @@ a {
         /* title */
         section.section-one-block h2 {
             font-family: "Bungee Shade", Arial, sans-serif;
-            font-size: 3em;
         }

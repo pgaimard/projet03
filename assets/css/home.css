@@ -15,32 +15,6 @@ body {
         }
     }
 
-/* Two blocks content sections */
-section.section-two-blocks {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-}
-
-section.section-two-blocks div {
-    width: 50%;
-}
-
-    /* responsive adjustment */
-    @media all and (max-width: 850px){
-        /* global */
-        section.section-two-blocks div{
-            width: unset;
-        }
-        section.section-two-blocks:nth-child(odd) {
-            flex-direction: column;
-        }
-
-        section.section-two-blocks:nth-child(even) {
-            flex-direction: column-reverse;
-        }
-    }
-
 /* heading image section */
 section#section-heading-image {
     display: flex;
@@ -179,27 +153,8 @@ section#section-announcement div {
         margin: 50px 0;
     }
 
-    section.section-two-blocks div.section-content-block {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    section.section-two-blocks div.section-content-block div {
-        width: 100%;
-        padding: 20px 100px;
-    }
-
-        /* title */
-        section.section-two-blocks div.section-content-block h2 {
-            font-family: "Bungee Shade", Arial, sans-serif;
-            font-size: 3em;
-        }
-
         /* text */
         section.section-two-blocks div.section-content-block p {
-            font-family: Quicksand, Arial, sans-serif;
-            font-weight: 300;
             font-size: 2em;
         }
 
@@ -208,74 +163,24 @@ section#section-announcement div {
             background-color: #41454D;
         }
 
-        /* link */
-        section.section-two-blocks div.section-content-block p a {
-            font-weight: 700;
-            font-size: 1em;
-            padding: 0 10px;
-
-            border: 1px solid red;
-            color: red;
-            transition: all 0.2s;
-        }
-
-        section.section-two-blocks div.section-content-block p a:hover {
-            color: white;
-            background-color: red;
-            transition: all 0.2s;
-        }
-
             /* responsive adjustments */
             @media all and (min-width: 780px) and (max-width: 1024px) {
-                section.section-two-blocks div.section-content-block div {
-                    padding: 0 50px 20px 50px;
-                }
-
-                /* title */
-                section.section-two-blocks div.section-content-block h2 {
-                    font-size: 2em;
-                }
-
                 /* text */
                 section.section-two-blocks div.section-content-block p {
                     font-size: 1.5em;
-                }
-
-                /* link */
-                section.section-two-blocks div.section-content-block p a {
-                    font-size: 0.8em;
                 }
             }
 
             @media all and (max-width: 576px) {
-                section.section-two-blocks div.section-content-block div {
-                    padding: 0 40px 20px 40px;
-                }
-
-                /* title */
-                section.section-two-blocks div.section-content-block h2 {
-                    font-size: 2em;
-                }
-
                 /* text */
                 section.section-two-blocks div.section-content-block p {
                     font-size: 1.5em;
                 }
-
-                /* link */
-                section.section-two-blocks div.section-content-block p a {
-                    font-size: 0.8em;
-                }
             }
 
-    /* image block */
-    section.section-two-blocks div.section-image-block img {
-        width: 100%;
-    }
 
 /* partners section */
 section#section-partners {
-    text-align: center;
     padding: 100px 300px;
 }
 
@@ -288,25 +193,26 @@ section#section-partners {
 
     @media all and (max-width: 768px){
         section#section-partners {
-            padding: 10px 50px 40px;
+            padding: 10px 20px 40px;
         }
     }
 
-    /* title */
-    section#section-partners h2 {
-        font-family: "Bungee Shade", Arial, sans-serif;
-        font-size: 3em;
-    }
+        /* Title */
+        @media all and (min-width: 577px) and (max-width: 768px) {
+            section#section-partners h2 {
+                font-size: 3em;
+            }
+        }
 
-        @media all and (min-width: 540px) and (max-width: 576px){
+        @media all and (min-width: 321px) and (max-width: 576px) {
             section#section-partners h2 {
                 font-size: 2em;
             }
         }
 
-        @media all and (max-width: 520px){
+        @media all and (max-width: 320px) {
             section#section-partners h2 {
-                font-size: 1.5em;
+                font-size: 1.8em;
             }
         }
 

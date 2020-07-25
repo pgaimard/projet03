@@ -62,28 +62,122 @@ a {
 
 /* content sections */
 
-/* Two blocks content sections */
-section.section-two-blocks {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-}
-
-section.section-two-blocks div {
-    width: 50%;
-}
-
-    /* responsive adjustment */
-    @media all and (max-width: 850px){
-        /* global */
-        section.section-two-blocks div{
-            width: unset;
-        }
-        section.section-two-blocks:nth-child(odd) {
-            flex-direction: column;
-        }
-
-        section.section-two-blocks:nth-child(even) {
-            flex-direction: column-reverse;
-        }
+    /* Two blocks content sections */
+    section.section-two-blocks {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
     }
+
+    section.section-two-blocks div {
+        width: 50%;
+    }
+
+        /* responsive adjustment */
+        @media all and (max-width: 850px){
+            /* global */
+            section.section-two-blocks div{
+                width: unset;
+            }
+            section.section-two-blocks:nth-child(odd) {
+                flex-direction: column;
+            }
+
+            section.section-two-blocks:nth-child(even) {
+                flex-direction: column-reverse;
+            }
+        }
+
+        /* image block */
+        section.section-two-blocks div.section-image-block img {
+            width: 100%;
+        }
+
+        /* content block */
+        section#section-team {
+            margin: 50px 0;
+        }
+
+        section.section-two-blocks div.section-content-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section.section-two-blocks div.section-content-block div {
+            width: 100%;
+            padding: 20px 100px;
+        }
+
+            /* title */
+            section.section-two-blocks div.section-content-block h2 {
+                font-family: "Bungee Shade", Arial, sans-serif;
+                font-size: 3em;
+            }
+
+            /* text */
+            section.section-two-blocks div.section-content-block p {
+                font-family: Quicksand, Arial, sans-serif;
+                font-weight: 300;
+            }
+
+            /* link */
+            section.section-two-blocks div.section-content-block p a {
+                font-weight: 700;
+                font-size: 1em;
+                padding: 0 10px;
+
+                border: 1px solid red;
+                color: red;
+                transition: all 0.2s;
+            }
+
+            section.section-two-blocks div.section-content-block p a:hover {
+                color: white;
+                background-color: red;
+                transition: all 0.2s;
+            }
+
+                /* responsive adjustments */
+                @media all and (min-width: 780px) and (max-width: 1024px) {
+                    section.section-two-blocks div.section-content-block div {
+                        padding: 0 50px 20px 50px;
+                    }
+
+                    /* title */
+                    section.section-two-blocks div.section-content-block h2 {
+                        font-size: 2em;
+                    }
+
+                    /* link */
+                    section.section-two-blocks div.section-content-block p a {
+                        font-size: 0.8em;
+                    }
+                }
+
+                @media all and (max-width: 576px) {
+                    section.section-two-blocks div.section-content-block div {
+                        padding: 0 40px 20px 40px;
+                    }
+
+                    /* title */
+                    section.section-two-blocks div.section-content-block h2 {
+                        font-size: 2em;
+                    }
+
+                    /* link */
+                    section.section-two-blocks div.section-content-block p a {
+                        font-size: 0.8em;
+                    }
+                }
+
+    /* one block content section */
+    section.section-one-block {
+        text-align: center;
+    }
+
+        /* title */
+        section.section-one-block h2 {
+            font-family: "Bungee Shade", Arial, sans-serif;
+            font-size: 3em;
+        }

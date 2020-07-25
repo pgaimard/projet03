@@ -8,6 +8,7 @@ section.section-program, section.section-two-blocks.section-program, section.sec
 /* heading image section */
 section.section-heading-image.style-2 {
     background-image: url("../img/program_img_header.jpg");
+    background-position: right bottom;
 }
 
     /* Title */

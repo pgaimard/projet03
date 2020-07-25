@@ -42,12 +42,6 @@ section#section-heading-image {
 
 /* content sections */
     /* content block */
-    section.section-two-blocks div.section-image-block {
-        display: flex;
-        align-items: center;
-    }
-
-    /* content block */
     section.section-two-blocks div {
         margin: 30px 0;
     }

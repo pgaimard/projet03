@@ -1,1 +1,124 @@
 /* Article */
+
+/* heading image section */
+section.section-heading-image.style-2 {
+    background-image: url("../img/article_diane_kruger_img_heading.jpg");
+    background-position: center bottom;
+}
+
+/* Article section */
+section#section-article {
+    padding: 60px;
+
+    font-family: Quicksand, Arial, sans-serif;
+}
+
+    /* responsive adjustment */
+    @media all and (max-width: 576px) {
+        section#section-article {
+            padding: 30px;
+        }
+    }
+
+    /* article date */
+    section#section-article h4 {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    /* article title */
+    section#section-article h3 {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    /* article content */
+    section#section-article p {
+        text-align: justify;
+    }
+
+    /* article attr */
+    section#section-article ul {
+        margin-top: 30px;
+        padding: 0;
+
+        display: flex;
+        justify-content: left;
+
+        list-style: none;
+    }
+
+    section#section-article ul li {
+        padding: 0 10px;
+        border-right: 1px solid black;
+    }
+
+    section#section-article ul li:first-of-type {
+        padding-left: 0;
+    }
+
+    section#section-article ul li:last-of-type {
+        border-right: none;
+    }
+
+    /* article share */
+    section#section-article p.share {
+        margin-top: 40px;
+        font-size: 2em;
+    }
+
+    section#section-article p.share a {
+        color: black;
+    }
+
+    section#section-article p.share a:hover {
+        color: red;
+    }
+
+    /* article link */
+    section#section-article p.article-link {
+        margin-top: 60px;
+    }
+
+    section#section-article p.article-link a {
+        color: red;
+        padding: 5px 10px;
+
+        font-size: 1.2em;
+
+        border: 1px solid red;
+    }
+
+    section#section-article p.article-link a:hover {
+        color: white;
+        background-color: red;
+    }
+
+        @media all and (max-width: 576px) {
+
+            /* article date */
+            section#section-article h4 {
+                font-size: 2em;
+            }
+
+            section#section-article h4 i img {
+                width: 30px;
+            }
+
+            /* article title */
+            section#section-article h3 {
+                font-size: 2em;
+            }
+
+            /* article attr */
+            section#section-article ul {
+                flex-direction: column;
+            }
+
+            /* article attr */
+            section#section-article ul li {
+                padding: 0;
+                border: none;
+                margin-top: 5px;
+            }
+        }

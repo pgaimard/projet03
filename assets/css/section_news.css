@@ -36,10 +36,6 @@ section#section-news h2 {
 
         /* responsive adjustment */
         @media all and (max-width: 1024px) {
-            section#section-news div.section-news-article {
-                flex-direction: column-reverse;
-            }
-
             section#section-news div.section-news-article div {
                 width: 100%;
             }

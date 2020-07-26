@@ -171,6 +171,12 @@ section#section-news {
         }
     }
 
+    @media all and (max-width: 1024px) {
+        section#section-news div.section-news-article {
+            flex-direction: column-reverse;
+        }
+    }
+
     /* section global link */
     section#section-news div#section-news-link {
         margin: 100px 0 50px;

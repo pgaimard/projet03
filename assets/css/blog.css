@@ -42,7 +42,7 @@ section#section-blog-heading-form  form div {
     /* label */
     section#section-blog-heading-form  form div label {
         font-family: Quicksand, Arial, sans-serif;
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-bottom: 5px;
     }
 
@@ -51,7 +51,7 @@ section#section-blog-heading-form  form div {
         padding: 5px;
         outline: none;
         font-family: Quicksand, Arial, sans-serif;
-        font-size: 1.5em;
+        font-size: 1.2em;
 
         border: 1px solid black;
     }

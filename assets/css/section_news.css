@@ -114,6 +114,11 @@ section#section-news h2 {
             border: 1px solid red;
         }
 
+        section#section-news div.section-news-article div.section-content-block p.blog-link a:hover {
+            color: white;
+            background-color: red;
+        }
+
             @media all and (max-width: 576px) {
                 /* article content block */
                 section#section-news div.section-news-article div.section-content-block div {

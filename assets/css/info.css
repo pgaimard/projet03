@@ -172,7 +172,7 @@ section#section-contact-form {
 
 section#section-contact-form div.container {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1000px;
     margin: 0 30px;
 }
 
@@ -216,6 +216,11 @@ section#section-contact-form div.container {
             color: red;
             background: none;
             border: 1px solid red;
+        }
+
+        section#section-contact-form div.container form div button:hover {
+            background-color: red;
+            color: white;
         }
 
         /* responsive adjustment */

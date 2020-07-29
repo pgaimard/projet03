@@ -40,6 +40,10 @@ footer div ul li a {
     color: white;
 }
 
+footer div#footer-nav ul li a:hover {
+    color: red;
+}
+
 footer div#footer-social ul li a {
     margin: 0 5px;
 }

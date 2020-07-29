@@ -60,3 +60,20 @@ section.section-heading-image.style-2 {
             background-size: 800px;
         }
     }
+
+/* style 3 */
+
+    section.section-heading-image.style-3 {
+        height: 444px;
+
+        background-image: url("../img/background_img_cloud_2.jpg");
+        background-position: center center;
+        background-size: 1920px;
+    }
+
+    /* responsive adjustment */
+    @media all and (min-width: 1921px){
+        section.section-heading-image.style-3 {
+            height: 600px;
+        }
+    }

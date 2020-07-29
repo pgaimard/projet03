@@ -1,24 +1,24 @@
 /* Infos et contact */
 
 /* heading image section */
-section.section-heading-image.style-1 {
+section.section-heading-image.style-3 {
     text-align: center;
 }
     /* Title */
-    section.section-heading-image.style-1 h3 {
+    section.section-heading-image.style-3 h3 {
         font-family: "Bungee Shade", Arial, sans-serif;
         font-size: 4em;
     }
 
         /* responsive adjustment */
         @media all and (min-width: 321px) and (max-width: 576px){
-            section.section-heading-image.style-1 h3 {
+            section.section-heading-image.style-3 h3 {
                 font-size: 2.8em;
             }
         }
 
         @media all and (max-width: 320px) {
-            section.section-heading-image.style-1 h3 {
+            section.section-heading-image.style-3 h3 {
                 font-size: 2.5em;
             }
         }

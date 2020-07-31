@@ -49,6 +49,7 @@ section#section-newsletter div {
         section#section-newsletter div.section-content-block h2 {
             margin-top: 0;
             margin-left: 5px;
+
             font-weight: 900;
             font-size: 3em;
         }
@@ -58,6 +59,7 @@ section#section-newsletter div {
             display: flex;
             flex-direction: column;
             justify-content: start;
+
             width: 100%;
             margin-bottom: 20px;
         }

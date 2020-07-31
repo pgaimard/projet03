@@ -121,6 +121,7 @@ section#section-location div.section-image-block, section#section-location div.s
         /* titre */
         section#section-location .section-content-block div.container h2 {
             margin: 0;
+
             font-weight: 900;
             font-size: 3em;
         }
@@ -128,16 +129,18 @@ section#section-location div.section-image-block, section#section-location div.s
         /* sous-titre */
         section#section-location .section-content-block div.container h3 {
             margin-top: 0;
+
             font-size: 2em;
             font-weight: 700;
         }
 
         /* items list */
         section#section-location .section-content-block div.container div {
-            margin: 10px 0;
             display: flex;
             justify-content: left;
             align-items: start;
+
+            margin: 10px 0;
         }
 
             /* pictos */
@@ -164,10 +167,11 @@ section#section-location div.section-image-block, section#section-location div.s
 
 /* contact form section */
 section#section-contact-form {
-    margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin: 50px 0;
 }
 
 section#section-contact-form div.container {
@@ -201,16 +205,18 @@ section#section-contact-form div.container {
         /* inputs, textarea */
         section#section-contact-form div.container form div input, section#section-contact-form div.container form div textarea {
             width: 100%;
-            resize: none;
             padding: 10px 0;
+
             font-size: 1.2em;
-            outline: none;
             font-family: Quicksand, Arial, sans-serif;
+            resize: none;
+            outline: none;
         }
 
         /* button */
         section#section-contact-form div.container form div button {
             padding: 10px 30px;
+
             font-family: Quicksand, Arial, sans-serif;
             font-weight: 300;
             font-size: 1.2em;

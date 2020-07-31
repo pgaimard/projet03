@@ -85,14 +85,15 @@ section#section-booking-form div.form-container {
         section#section-booking-form input[type="text"], section#section-booking-form input[type="email"], section#section-booking-form select {
             width: 100%;
             padding: 5px 0;
-            font-size: 1em;
 
+            font-size: 1em;
             outline: none;
         }
 
     /* submit button */
     section#section-booking-form div.form-validation {
         margin: 0 0 100px 0;
+
         text-align: center;
     }
 
@@ -113,6 +114,7 @@ section#section-booking-form div.form-container {
     section#section-booking-form input[type="submit"]:hover {
         color: white;
         background-color: red;
+
         transform: scale(1.15);
     }
 

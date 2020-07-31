@@ -3,6 +3,7 @@
 /* section title */
 section#section-news h2 {
     margin-bottom: 100px;
+
     font-family: "Bungee Shade", Arial, sans-serif;
     font-size: 3em;
 }
@@ -16,8 +17,9 @@ section#section-news h2 {
 
     @media all and (max-width: 576px) {
         section#section-news h2 {
-            text-align: left;
             margin: 0 0 50px 30px;
+
+            text-align: left;
             font-size: 2em;
         }
     }
@@ -58,18 +60,21 @@ section#section-news h2 {
     section#section-news div.section-news-article div.section-content-block div {
         width: unset;
         margin: 60px;
+
         text-align: left;
     }
 
         /* article date */
         section#section-news div.section-news-article div.section-content-block h4 {
             margin: 0;
+
             font-size: 3em;
         }
 
         /* article title */
         section#section-news div.section-news-article div.section-content-block h3 {
             margin: 0;
+
             font-size: 3em;
         }
 
@@ -80,16 +85,17 @@ section#section-news h2 {
 
         /* article attr */
         section#section-news div.section-news-article div.section-content-block ul {
-            padding: 0;
-
             display: flex;
             justify-content: left;
+
+            padding: 0;
 
             list-style: none;
         }
 
         section#section-news div.section-news-article div.section-content-block ul li {
             padding: 0 10px;
+
             border-right: 1px solid black;
         }
 
@@ -106,9 +112,9 @@ section#section-news h2 {
             margin-top: 40px;
         }
         section#section-news div.section-news-article div.section-content-block p.blog-link a {
-            color: red;
             padding: 5px 10px;
 
+            color: red;
             font-size: 1.2em;
 
             border: 1px solid red;
@@ -119,6 +125,7 @@ section#section-news h2 {
             background-color: red;
         }
 
+            /* responsive adjustment */
             @media all and (max-width: 576px) {
                 /* article content block */
                 section#section-news div.section-news-article div.section-content-block div {
@@ -146,8 +153,9 @@ section#section-news h2 {
 
                 /* article attr */
                 section#section-news div.section-news-article div.section-content-block ul li {
-                    padding: 0;
-                    border: none;
                     margin-top: 5px;
+                    padding: 0;
+
+                    border: none;
                 }
             }

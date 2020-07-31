@@ -23,12 +23,14 @@ section#section-article {
     /* article date */
     section#section-article h4 {
         margin: 0;
+
         font-size: 3em;
     }
 
     /* article title */
     section#section-article h3 {
         margin: 0;
+
         font-size: 3em;
     }
 
@@ -39,17 +41,18 @@ section#section-article {
 
     /* article attr */
     section#section-article ul {
-        margin-top: 30px;
-        padding: 0;
-
         display: flex;
         justify-content: left;
+
+        margin-top: 30px;
+        padding: 0;
 
         list-style: none;
     }
 
     section#section-article ul li {
         padding: 0 10px;
+
         border-right: 1px solid black;
     }
 
@@ -64,6 +67,7 @@ section#section-article {
     /* article share */
     section#section-article p.share {
         margin-top: 40px;
+
         font-size: 2em;
     }
 
@@ -81,9 +85,9 @@ section#section-article {
     }
 
     section#section-article p.article-link a {
-        color: red;
         padding: 5px 10px;
 
+        color: red;
         font-size: 1.2em;
 
         border: 1px solid red;
@@ -94,6 +98,7 @@ section#section-article {
         background-color: red;
     }
 
+        /* responsive adjustment */
         @media all and (max-width: 576px) {
 
             /* article date */
@@ -117,8 +122,9 @@ section#section-article {
 
             /* article attr */
             section#section-article ul li {
-                padding: 0;
-                border: none;
                 margin-top: 5px;
+                padding: 0;
+
+                border: none;
             }
         }

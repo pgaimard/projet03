@@ -26,6 +26,7 @@ section.section-heading-image.style-2 {
     @media all and (min-width: 577px) and (max-width: 768px){
         section.section-heading-image.style-2 h3 {
             padding: 20px 40px;
+
             font-size: 4em;
         }
     }
@@ -33,6 +34,7 @@ section.section-heading-image.style-2 {
     @media all and (min-width: 321px) and (max-width: 576px){
         section.section-heading-image.style-2 h3 {
             padding: 10px 20px;
+
             font-size: 2em;
         }
     }
@@ -40,6 +42,7 @@ section.section-heading-image.style-2 {
     @media all and (max-width: 320px) {
         section.section-heading-image.style-2 h3 {
             padding: 5px 10px;
+
             font-size: 1.8em;
         }
     }
@@ -69,9 +72,10 @@ section.section-two-blocks.section-program {
 
     /* title */
     section.section-two-blocks.section-program .section-content-block div h3 {
+        margin: 0 0 20px 0;
+
         font-size: 3em;
         font-weight: 300;
-        margin: 0 0 20px 0;
     }
 
     /* text title */
@@ -87,6 +91,7 @@ section.section-two-blocks.section-program {
     /* text */
     section.section-two-blocks.section-program .section-content-block div p {
         margin-top: 0;
+
         font-size: 1.2em;
     }
 

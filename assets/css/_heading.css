@@ -44,6 +44,7 @@ section.section-heading-image.style-2 {
     @media all and (min-width: 577px) and (max-width: 768px){
         section.section-heading-image.style-2 {
             height: 500px;
+
             background-size: 1300px;
         }
     }
@@ -51,16 +52,7 @@ section.section-heading-image.style-2 {
     @media all and (max-width: 576px){
         section.section-heading-image.style-2 {
             height: 300px;
+
             background-size: 800px;
         }
-    }
-
-/* style 3 */
-
-    section.section-heading-image.style-3 {
-        height: 444px;
-
-        background-image: url("../img/background_img_cloud_2.jpg");
-        background-position: center center;
-        background-size: 1920px;
     }

@@ -13,6 +13,7 @@ header {
 /* Title */
 header #header-title {
     margin-left: 20px;
+
     font-family: Lobster, Arial, sans-serif;
     font-size: 1.5em;
 }
@@ -71,42 +72,44 @@ header nav ul li a:hover {
 
 /* Responsive menu */
 
-header nav div#header-menu-button {
-    width: 100px;
-    height: 60px;
-    text-align: center;
-
-    display: none;
-}
-
-header nav div#header-menu-button img {
-    margin-top: 9px;
-}
-
-@media all and (max-width: 900px){
     header nav div#header-menu-button {
-        display: block;
-    }
-
-    header nav ul {
         display: none;
+
+        width: 100px;
+        height: 60px;
+
+        text-align: center;
     }
 
-    header nav:hover ul {
-        position: absolute;
-        right: 0;
-        top: 45px;
-        display: flex;
-        flex-direction: column;
-        width: 230px;
-
-        padding: 20px;
-
-        background-color: white;
-        border: 1px solid black;
+    header nav div#header-menu-button img {
+        margin-top: 9px;
     }
 
-    header nav:hover ul li {
-        padding: 10px;
-    }
+    @media all and (max-width: 900px){
+        header nav div#header-menu-button {
+            display: block;
+        }
+
+        header nav ul {
+            display: none;
+        }
+
+        header nav:hover ul {
+            position: absolute;
+            right: 0;
+            top: 45px;
+
+            display: flex;
+            flex-direction: column;
+
+            width: 230px;
+            padding: 20px;
+
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        header nav:hover ul li {
+            padding: 10px;
+        }
 }

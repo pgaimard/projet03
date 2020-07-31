@@ -26,6 +26,7 @@ section.section-heading-image.style-2 {
         @media all and (min-width: 577px) and (max-width: 768px){
             section.section-heading-image.style-2 h3 {
                 padding: 20px 40px;
+
                 font-size: 4em;
             }
         }
@@ -33,6 +34,7 @@ section.section-heading-image.style-2 {
         @media all and (min-width: 321px) and (max-width: 576px){
             section.section-heading-image.style-2 h3 {
                 padding: 10px 20px;
+
                 font-size: 2em;
             }
         }
@@ -40,32 +42,36 @@ section.section-heading-image.style-2 {
         @media all and (max-width: 320px) {
             section.section-heading-image.style-2 h3 {
                 padding: 5px 10px;
+
                 font-size: 1.8em;
             }
         }
 
 /* Resume program title */
 #program-resume-title {
-    font-family: "Bungee Shade", Arial, sans-serif;
-    font-size: 4em;
     padding-left: 100px;
     margin: 100px 0 30px;
+
+    font-family: "Bungee Shade", Arial, sans-serif;
+    font-size: 4em;
 }
 
     /* responsive adjustment */
     @media all and (min-width: 780px) and (max-width: 1024px) {
         #program-resume-title {
-            font-size: 3em;
             padding-left: 50px;
             margin: 60px 0 30px;
+
+            font-size: 3em;
         }
     }
 
     @media all and (max-width: 576px) {
         #program-resume-title {
-            font-size: 2.5em;
             padding-left: 30px;
             margin: 60px 0 30px;
+
+            font-size: 2.5em;
         }
     }
 
@@ -75,16 +81,18 @@ section.section-program.section-two-blocks:nth-of-type(2) {
 }
     /* time */
     section.section-two-blocks.section-program div.section-content-block p.program-time {
+        margin: 40px 0 0;
+
         font-size: 3em;
         font-weight: 900;
-        margin: 40px 0 0;
     }
 
     /* title */
     section.section-two-blocks.section-program div.section-content-block p.program-title {
+        margin: 0;
+
         font-size: 2em;
         font-weight: 300;
-        margin: 0;
     }
 
     /* details */
@@ -127,12 +135,14 @@ section.section-program-heading {
     section.section-program-heading h2 {
         padding: 100px 0 0;
         margin: 0;
+
         font-size: 5em;
     }
 
     /* film title */
     section.section-program-heading h3 {
         margin: 0;
+
         font-weight: 300;
         font-size: 5em;
     }
@@ -145,9 +155,10 @@ section.section-program-heading {
     section.section-program-heading p a {
         display: inline-block;
 
+        padding: 10px 20px;
+
         color: white;
         text-decoration: none;
-        padding: 10px 20px;
         font-size: 2em;
         border: 1px solid white;
 
@@ -168,6 +179,7 @@ section.section-program-heading {
         /* time */
         section.section-program-heading h2 {
             padding: 100px 0 0;
+
             font-size: 4em;
         }
 
@@ -183,6 +195,7 @@ section.section-program-heading {
 
         section.section-program-heading p a {
             padding: 10px 20px;
+
             font-size: 2em;
         }
     }
@@ -195,6 +208,7 @@ section.section-program-heading {
         /* time */
         section.section-program-heading h2 {
             padding: 100px 0 0;
+
             font-size: 3.5em;
         }
 
@@ -210,6 +224,7 @@ section.section-program-heading {
 
         section.section-program-heading p a {
             padding: 5px 10px;
+
             font-size: 1.5em;
         }
     }
@@ -222,6 +237,7 @@ section.section-program-heading {
         /* time */
         section.section-program-heading h2 {
             padding: 110px 0 0;
+
             font-size: 3em;
         }
 
@@ -237,6 +253,7 @@ section.section-program-heading {
 
         section.section-program-heading p a {
             padding: 5px 10px;
+
             font-size: 1.2em;
         }
     }
@@ -266,16 +283,18 @@ section.section-two-blocks.section-program {
 
     /* time */
     section.section-two-blocks.section-program .section-content-block div h2 {
+        margin: 0;
+
         font-size: 5em;
         font-weight: 900;
-        margin: 0;
     }
 
     /* film */
     section.section-two-blocks.section-program .section-content-block div h3 {
+        margin: 0 0 20px 0;
+
         font-size: 3em;
         font-weight: 300;
-        margin: 0 0 20px 0;
     }
 
     /* info */
@@ -290,13 +309,15 @@ section.section-two-blocks.section-program {
 
     /* text title */
     section.section-two-blocks.section-program .section-content-block div h4 {
-        font-size: 1.5em;
         margin-bottom: 0;
+
+        font-size: 1.5em;
     }
 
     /* text */
     section.section-two-blocks.section-program .section-content-block div p {
         margin-top: 0;
+
         font-size: 1.2em;
     }
 

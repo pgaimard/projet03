@@ -31,24 +31,26 @@ section#section-blog-heading-form  form {
 }
 
 section#section-blog-heading-form  form div {
-    width: 50%;
-    margin: 0 60px;
-
     display: flex;
     flex-direction: column;
     justify-content: left;
+
+    width: 50%;
+    margin: 0 60px;
 }
 
     /* label */
     section#section-blog-heading-form  form div label {
+        margin-bottom: 5px;
+
         font-family: Quicksand, Arial, sans-serif;
         font-size: 1.2em;
-        margin-bottom: 5px;
     }
 
     /* select */
     section#section-blog-heading-form  form div select,  section#section-blog-heading-form  form div input {
         padding: 5px;
+
         outline: none;
         font-family: Quicksand, Arial, sans-serif;
         font-size: 1.2em;
@@ -72,6 +74,7 @@ section#section-blog-heading-form  form div {
 
             section#section-blog-heading-form form {
                 flex-direction: column;
+
                 margin: 0 60px;
             }
 
@@ -95,6 +98,7 @@ section#section-blog-heading-form  form div {
 
             section#section-blog-heading-form form {
                 flex-direction: column;
+
                 margin: 0 30px;
             }
 
@@ -118,8 +122,6 @@ section#section-news {
 section#section-news div.section-news-article {
     margin: 50px 0;
 }
-
-    /* responsive adjustment */
 
     /* responsive adjustment */
     @media all and (max-width: 1024px) {

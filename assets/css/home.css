@@ -20,6 +20,7 @@ section.section-heading-image.style-1 h3 {
 section.section-heading-image.style-1 h3 div {
     margin: 5px;
     padding: 5px 20px;
+
     border: 1px solid black;
 }
 
@@ -70,12 +71,14 @@ section#section-announcement div {
     /* Title block */
     section#section-announcement div#title-block p:nth-child(1){
         margin: 40px 0;
+
         font-family: "Bungee Shade", Arial, sans-serif;
         font-size: 4em;
     }
 
     section#section-announcement div#title-block p:nth-child(2){
         margin: 0;
+
         font-family: Quicksand, Arial, sans-serif;
         font-size: 2em;
     }
@@ -87,6 +90,7 @@ section#section-announcement div {
 
     section#section-announcement div#title-block p:nth-child(3){
         margin: 0;
+
         font-family: Quicksand, Arial, sans-serif;
         font-weight: 300;
         font-size: 2em;
@@ -94,6 +98,7 @@ section#section-announcement div {
 
     section#section-announcement div#title-block p:nth-child(4){
         margin: 0;
+
         font-family: Quicksand, Arial, sans-serif;
         font-weight: 300;
         font-size: 1em;
@@ -154,6 +159,7 @@ section#section-announcement div {
 /* news section */
 section#section-news {
     margin-top: 200px;
+
     text-align: center;
 }
 
@@ -177,6 +183,7 @@ section#section-news {
 
         section#section-news div#section-news-link a {
             display: inline-block;
+
             padding: 10px 20px;
 
             font-family: Quicksand, Arial, sans-serif;
@@ -200,6 +207,7 @@ section#section-news {
 
             section#section-news div#section-news-link a {
                 padding: 5px 10px;
+
                 font-size: 1.5em;
             }
         }
@@ -212,6 +220,7 @@ section#section-news {
 
             section#section-news div#section-news-link a {
                 padding: 5px 10px;
+
                 font-size: 1.5em;
             }
         }
@@ -277,9 +286,10 @@ section#section-partners {
     }
 
     section#section-partners ul li {
-        list-style: none;
         width: 200px;
         margin: 40px;
+
+        list-style: none;
     }
 
     @media all and (max-width: 576px) {

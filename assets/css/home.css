@@ -1,19 +1,12 @@
 /* home */
 
 /* Global */
-body {
+body div#global-container {
     background-image: url("../img/backgrount_picto_camera_1.svg");
     background-repeat: no-repeat;
     background-size: 1920px;
     background-position: top 350px center;
 }
-
-    @media all and (min-width: 1921px) {
-        body {
-            background-size: 2650px;
-            background-position: top 500px center;
-        }
-    }
 
 /* heading image section */
 section.section-heading-image.style-1 h3 {

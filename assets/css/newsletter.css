@@ -1,0 +1,97 @@
+/* Newsletter subscription */
+
+/* global */
+section#section-newsletter, input {
+    font-family: Quicksand,Arial, sans-serif;
+}
+
+section#section-newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin: 50px 0;
+}
+
+section#section-newsletter div {
+    width: 50%;
+}
+
+    /* responsive adjustment */
+    @media all and (max-width: 768px) {
+        section#section-newsletter {
+            margin: 0 0 50px;
+        }
+
+        section#section-newsletter div {
+            width: 100%;
+        }
+    }
+
+    /* img block */
+    section#section-newsletter div.section-image-block img {
+        width: 100%;
+    }
+
+    /* content block */
+    section#section-newsletter div.section-content-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#section-newsletter div.section-content-block form {
+        width: 100%;
+        margin: 0 30px;
+    }
+
+        /* title */
+        section#section-newsletter div.section-content-block h2 {
+            margin-top: 0;
+            margin-left: 5px;
+            font-weight: 900;
+            font-size: 3em;
+        }
+
+        /* form */
+        section#section-newsletter div.section-content-block div.form-block {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        section#section-newsletter div.section-content-block div.form-block label {
+            margin: 0 0 2px 5px;
+
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+
+        section#section-newsletter div.section-content-block div.form-block input {
+            padding: 5px;
+
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        /* button */
+        section#section-newsletter div.section-content-block input[type="submit"] {
+            margin-top: 10px;
+            padding: 5px 20px;
+
+            font-size: 1.5em;
+            font-weight: 300;
+
+            color: red;
+            border: 1px solid red;
+            background-color: white;
+
+            transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
+        }
+
+        section#section-newsletter div.section-content-block input[type="submit"]:hover {
+            color: white;
+            background-color: red;
+        }

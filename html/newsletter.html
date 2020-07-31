@@ -2,9 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/css/app.css" />
+    <link rel="stylesheet" href="../assets/css/newsletter.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/heading.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+
+    <title>Newsletter</title>
 </head>
 <body>
-$END$
+    <header>
+        <div id="header-title">
+            <a href="../index.html">Les Films de Plein Air</a>
+        </div>
+        <nav>
+            <div id="header-menu-button">
+                <img src="../assets/img/picto_menu.svg" alt="" width="40"/>
+            </div>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li class="nav-active"><a href="about.html">LE FESTIVAL</a></li>
+                <li><a href="program.html">LE PROGRAMME</a></li>
+                <li><a href="blog.html">ACTUALITÉ & PRESSE</a></li>
+                <li><a href="info.html">INFOS & CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="section-newsletter">
+        <div class="section-image-block">
+            <img src="../assets/img/newsletter_img_letter.jpg" alt="">
+        </div>
+        <div class="section-content-block">
+            <form method="post" action="newsletter.html">
+                <h2>Inscription à la newsletter</h2>
+                <div class="form-block">
+                    <label for="lastname">NOM</label>
+                    <input type="text" name="lastname" id="lastname" />
+                </div>
+                <div class="form-block">
+                    <label for="firstname">PRENOM</label>
+                    <input type="text" name="firstname" id="firstname" />
+                </div>
+                <div class="form-block">
+                    <label for="email">E-MAIL</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <input type="submit" value="JE M’INSCRIS" />
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-nav">
+            <ul>
+                <li class="footer-block-heading">Menu</li>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="about.html">LE FESTIVAL</a></li>
+                <li><a href="program.html">PROGRAMMATION</a></li>
+                <li><a href="blog.html">ACTUALITÉS & PRESSE</a></li>
+                <li><a href="info.html">INFOS & CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="footer-contact">
+            <ul>
+                <li class="footer-block-heading">Les Films de Plein Air</li>
+                <li>30 Rue Daval, 75010 Paris</li>
+                <li>04 72 37 82 82</li>
+                <li>contact@festival-films-plein-air.org</li>
+                <li><a href="#">mentions légales</a></li>
+            </ul>
+        </div>
+        <div id="footer-social">
+            <ul>
+                <li class="footer-block-heading">Réseaux</li>
+                <li>
+                    <a href="#"><img src="../assets/img/social_facebook.svg" alt="facebook-link" width="30"/></a>
+                    <a href="#"><img src="../assets/img/social_snapshat.svg" alt="snapshat-link" width="30"/></a>
+                    <a href="#"><img src="../assets/img/social_twitter.svg" alt="twitter-link" width="30"/></a>
+                    <a href="#"><img src="../assets/img/social_pinterest.svg" alt="pinterest-link" width="30"/></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

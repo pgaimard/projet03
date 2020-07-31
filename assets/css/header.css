@@ -89,6 +89,7 @@ header nav div#header-menu-button img {
         top: 45px;
         display: flex;
         flex-direction: column;
+        width: 230px;
 
         padding: 20px;
 

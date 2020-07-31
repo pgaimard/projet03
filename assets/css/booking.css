@@ -1,1 +1,124 @@
 /* Booking */
+
+/* global */
+section, input, select {
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Title section */
+section#section-booking-title {
+    text-align: center;
+}
+
+section#section-booking-title h2 {
+    font-size: 3em;
+}
+
+/* form section */
+section#section-booking-form div.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+    /* form section column */
+    section#section-booking-form div.form-container div.form-col {
+        width: 50%;
+        margin: 0 60px 60px;
+    }
+
+    section#section-booking-form div.form-container div.form-col div {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        margin: 15px 0;
+    }
+
+    /* responsive adjustment */
+    @media all and (min-width: 577px) and (max-width: 768px) {
+        section#section-booking-form div.form-container {
+            flex-direction: column;
+            align-items: center;
+
+            margin: 0 60px 60px;
+        }
+
+        section#section-booking-form div.form-container div.form-col {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+    @media all and (max-width: 576px) {
+        section#section-booking-form div.form-container {
+            flex-direction: column;
+            align-items: center;
+
+            margin: 0 30px 60px;
+        }
+
+        section#section-booking-form div.form-container div.form-col {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+        section#section-booking-form div.form-container div.form-col div label {
+            margin-bottom: 2px;
+        }
+
+        /* newsleter checkbox element */
+        section#section-booking-form div.form-container div.form-col div div {
+            margin: 0;
+        }
+
+        section#section-booking-form div.form-container div.form-col div div.newsletter-checkbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+        }
+
+        /* form elements */
+        section#section-booking-form input[type="text"], section#section-booking-form input[type="email"], section#section-booking-form select {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 1em;
+
+            outline: none;
+        }
+
+    /* submit button */
+    section#section-booking-form div.form-validation {
+        margin: 0 0 100px 0;
+        text-align: center;
+    }
+
+    section#section-booking-form input[type="submit"] {
+        padding: 10px 20px;
+
+        outline: none;
+        font-size: 2em;
+
+        color: red;
+        background-color: unset;
+        border: 1px solid red;
+
+        transform: scale(1);
+        transition: transform 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out;
+    }
+
+    section#section-booking-form input[type="submit"]:hover {
+        color: white;
+        background-color: red;
+        transform: scale(1.15);
+    }
+
+        /* responsive adjustment */
+        @media all and (max-width: 576px) {
+            section#section-booking-form input[type="submit"] {
+                font-size: 1em;
+            }
+        }

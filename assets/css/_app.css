@@ -66,6 +66,16 @@ a {
 
 /* content sections */
 
+    /* one block content section */
+    section.section-one-block {
+        text-align: center;
+    }
+
+        /* title */
+        section.section-one-block h2 {
+            font-family: "Bungee Shade", Arial, sans-serif;
+        }
+
     /* Two blocks content sections */
     section.section-two-blocks {
         display: flex;
@@ -180,12 +190,3 @@ a {
                     }
                 }
 
-    /* one block content section */
-    section.section-one-block {
-        text-align: center;
-    }
-
-        /* title */
-        section.section-one-block h2 {
-            font-family: "Bungee Shade", Arial, sans-serif;
-        }

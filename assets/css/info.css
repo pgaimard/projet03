@@ -188,6 +188,7 @@ section#section-contact-form div.container {
         flex-direction: column;
         align-items: start;
 
+        width: 100%;
         margin: 20px 0;
     }
 
@@ -201,7 +202,7 @@ section#section-contact-form div.container {
         section#section-contact-form div.container form div input, section#section-contact-form div.container form div textarea {
             width: 100%;
             resize: none;
-            padding: 10px;
+            padding: 10px 0;
             font-size: 1.2em;
             outline: none;
             font-family: Quicksand, Arial, sans-serif;

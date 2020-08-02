@@ -1,5 +1,8 @@
 # projet03
-Les Films de Plein Air
+Les Films de Plein Air  
 
-#### Maquette
+##### Maquette
 Version 1: html + css
+
+##### Repository GitHub
+https://github.com/pgaimard/projet03

@@ -21,16 +21,16 @@
         }
 
 /* blog heading form section */
-section#section-blog-heading-form {
+div#section-blog-heading-form {
     margin-top: 100px;
 }
 
-section#section-blog-heading-form  form {
+div#section-blog-heading-form  form {
     display: flex;
     align-items: center;
 }
 
-section#section-blog-heading-form  form div {
+div#section-blog-heading-form  form div {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -40,7 +40,7 @@ section#section-blog-heading-form  form div {
 }
 
     /* label */
-    section#section-blog-heading-form  form div label {
+    div#section-blog-heading-form  form div label {
         margin-bottom: 5px;
 
         font-family: Quicksand, Arial, sans-serif;
@@ -48,7 +48,7 @@ section#section-blog-heading-form  form div {
     }
 
     /* select */
-    section#section-blog-heading-form  form div select,  section#section-blog-heading-form  form div input {
+    div#section-blog-heading-form  form div select,  div#section-blog-heading-form  form div input {
         padding: 5px;
 
         outline: none;
@@ -59,7 +59,7 @@ section#section-blog-heading-form  form div {
     }
 
     /* input */
-    section#section-blog-heading-form  form div input {
+    div#section-blog-heading-form  form div input {
         background-image: url("../img/picto_loup.svg");
         background-repeat: no-repeat;
         background-size: 20px;
@@ -68,17 +68,17 @@ section#section-blog-heading-form  form div {
 
         /* responsive adjustment */
         @media all and (max-width: 1024px) {
-            section#section-blog-heading-form {
+            div#section-blog-heading-form {
                 margin-top: 50px;
             }
 
-            section#section-blog-heading-form form {
+            div#section-blog-heading-form form {
                 flex-direction: column;
 
                 margin: 0 60px;
             }
 
-            section#section-blog-heading-form form div {
+            div#section-blog-heading-form form div {
                 width: 100%;
                 margin: 10px 0;
             }
@@ -86,29 +86,29 @@ section#section-blog-heading-form  form div {
         }
 
         @media all and (min-width: 577px) and (max-width: 768px) {
-            section#section-blog-heading-form {
+            div#section-blog-heading-form {
                 margin-top: 50px;
             }
         }
 
         @media all and (max-width: 576px) {
-            section#section-blog-heading-form {
+            div#section-blog-heading-form {
                 margin-top: 30px;
             }
 
-            section#section-blog-heading-form form {
+            div#section-blog-heading-form form {
                 flex-direction: column;
 
                 margin: 0 30px;
             }
 
             /* label */
-            section#section-blog-heading-form  form div label {
+            div#section-blog-heading-form  form div label {
                 font-size: 1em;
             }
 
             /* select */
-            section#section-blog-heading-form  form div select,  section#section-blog-heading-form  form div input {
+            div#section-blog-heading-form  form div select,  section#section-blog-heading-form  form div input {
                 font-size: 1em;
             }
         }

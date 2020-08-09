@@ -88,7 +88,7 @@ section.section-program.section-two-blocks:nth-of-type(2) {
     }
 
     /* title */
-    section.section-two-blocks.section-program div.section-content-block p.program-title {
+    section.section-two-blocks.section-program div.section-content-block h3.program-title {
         margin: 0;
 
         font-size: 2em;

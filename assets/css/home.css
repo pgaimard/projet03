@@ -17,7 +17,8 @@ section.section-heading-image.style-1 h3 {
     border: 1px solid black;
 }
 
-section.section-heading-image.style-1 h3 div {
+section.section-heading-image.style-1 h3 span {
+    display: block;
     margin: 5px;
     padding: 5px 20px;
 
@@ -69,7 +70,7 @@ section#section-announcement div {
         }
 
     /* Title block */
-    section#section-announcement div#title-block p:nth-child(1){
+    section#section-announcement div#title-block h1 {
         margin: 40px 0;
 
         font-family: "Bungee Shade", Arial, sans-serif;
@@ -106,19 +107,19 @@ section#section-announcement div {
 
         /* Responsive adjustment */
         @media all and (min-width: 770px) and (max-width: 1024px){
-            section#section-announcement div#title-block p:nth-child(1){
+            section#section-announcement div#title-block h1 {
                 font-size: 3em;
             }
         }
 
         @media all and (max-width: 576px){
-            section#section-announcement div#title-block p:nth-child(1){
+            section#section-announcement div#title-block h1 {
                 font-size: 3em;
             }
         }
 
         @media all and (max-width: 540px){
-            section#section-announcement div#title-block p:nth-child(1){
+            section#section-announcement div#title-block h1 {
                 font-size: 2.5em;
             }
         }
@@ -290,6 +291,10 @@ section#section-partners {
         margin: 40px;
 
         list-style: none;
+    }
+
+    section#section-partners ul li img {
+        width: 200px;
     }
 
     @media all and (max-width: 576px) {

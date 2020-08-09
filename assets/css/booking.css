@@ -1,7 +1,7 @@
 /* Booking */
 
 /* global */
-section, input, select {
+div, section, input, select {
     font-family: Quicksand, Arial, sans-serif;
     font-weight: 700;
 }
@@ -16,19 +16,19 @@ section#section-booking-title h2 {
 }
 
 /* form section */
-section#section-booking-form div.form-container {
+div#section-booking-form div.form-container {
     display: flex;
     flex-direction: row;
     align-items: start;
 }
 
     /* form section column */
-    section#section-booking-form div.form-container div.form-col {
+    div#section-booking-form div.form-container div.form-col {
         width: 50%;
         margin: 0 60px 60px;
     }
 
-    section#section-booking-form div.form-container div.form-col div {
+    div#section-booking-form div.form-container div.form-col div {
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -38,43 +38,43 @@ section#section-booking-form div.form-container {
 
     /* responsive adjustment */
     @media all and (min-width: 577px) and (max-width: 768px) {
-        section#section-booking-form div.form-container {
+        div#section-booking-form div.form-container {
             flex-direction: column;
             align-items: center;
 
             margin: 0 60px 60px;
         }
 
-        section#section-booking-form div.form-container div.form-col {
+        div#section-booking-form div.form-container div.form-col {
             width: 100%;
             margin: 0;
         }
     }
 
     @media all and (max-width: 576px) {
-        section#section-booking-form div.form-container {
+        div#section-booking-form div.form-container {
             flex-direction: column;
             align-items: center;
 
             margin: 0 30px 60px;
         }
 
-        section#section-booking-form div.form-container div.form-col {
+        div#section-booking-form div.form-container div.form-col {
             width: 100%;
             margin: 0;
         }
     }
 
-        section#section-booking-form div.form-container div.form-col div label {
+        div#section-booking-form div.form-container div.form-col div label {
             margin-bottom: 2px;
         }
 
         /* newsleter checkbox element */
-        section#section-booking-form div.form-container div.form-col div div {
+        div#section-booking-form div.form-container div.form-col div div {
             margin: 0;
         }
 
-        section#section-booking-form div.form-container div.form-col div div.newsletter-checkbox {
+        div#section-booking-form div.form-container div.form-col div div.newsletter-checkbox {
             display: flex;
             flex-direction: row;
             justify-content: start;
@@ -82,7 +82,7 @@ section#section-booking-form div.form-container {
         }
 
         /* form elements */
-        section#section-booking-form input[type="text"], section#section-booking-form input[type="email"], section#section-booking-form select {
+        div#section-booking-form input[type="text"], div#section-booking-form input[type="email"], div#section-booking-form select {
             width: 100%;
             padding: 5px 0;
 
@@ -91,13 +91,13 @@ section#section-booking-form div.form-container {
         }
 
     /* submit button */
-    section#section-booking-form div.form-validation {
+    div#section-booking-form div.form-validation {
         margin: 0 0 100px 0;
 
         text-align: center;
     }
 
-    section#section-booking-form input[type="submit"] {
+    div#section-booking-form input[type="submit"] {
         padding: 10px 20px;
 
         outline: none;
@@ -111,7 +111,7 @@ section#section-booking-form div.form-container {
         transition: transform 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out;
     }
 
-    section#section-booking-form input[type="submit"]:hover {
+    div#section-booking-form input[type="submit"]:hover {
         color: white;
         background-color: red;
 
@@ -120,7 +120,7 @@ section#section-booking-form div.form-container {
 
         /* responsive adjustment */
         @media all and (max-width: 576px) {
-            section#section-booking-form input[type="submit"] {
+            div#section-booking-form input[type="submit"] {
                 font-size: 1em;
             }
         }
